@@ -1,0 +1,185 @@
+.blog-form {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    color: #001a33;
+}
+.blog-form .form-container {
+    width: 500px;
+}
+.blog-form .form-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.blog-form form label {
+    font-size: 20px;
+    font-weight: 350;
+}
+.blog-form form input, textarea {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 350;
+    padding: 7px;
+    background: #f4f3f3;
+    border: 1px solid #aed6f1;
+    border-radius: 10px;
+    resize: none;
+}
+.blog-form form textarea {
+    margin-bottom: 10px;
+    height: 200;
+}
+
+.blog-form form .unggah-foto {
+    width: 100%;
+    background: #f4f4f4;
+    font-size: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    border: 1px solid #aed6f1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.blog-form form .unggah-foto label {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+}
+.blog-form form .unggah-foto label p {
+    font-size: 15px;
+}
+.blog-form form .button-submit {
+    text-align: right;
+    margin-top: 20px;
+}
+.blog-form form button {
+    padding: 5px 20px;
+    font-size: 15px;
+    background: #001a33;
+    color:#f4f3f3;
+    border:none solid #aed6f1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.personality-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personality-container .checkbox-personality {
+    display: flex;  
+}
+.vision-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.blog-line {
+    border: 1px solid #001a33;
+    
+    
+}
+.blog-list {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+.blog-list .blog-list-container {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: 1px solid #001a33;
+    border-radius: 8px;
+    display: flex;
+}
+
+.blog-list .blog-list-container .blog-list-image {
+    flex: 1;
+}
+.blog-list .blog-list-container .blog-list-image img {
+    width: 60%;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    object-fit: cover;
+}
+.blog-list .blog-list-container .blog-content {
+    padding-right: 20px;
+    flex: 2;
+}
+.blog-list .blog-list-container .button-group {
+    text-align: right;
+}
+.blog-list .blog-list-container .button-group .button-unggah {
+    padding: 5px 20px;
+    font-size: 10px;
+    background: #001a33;
+    color:#f4f3f3;
+    border:none solid #aed6f1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.blog-list .blog-list-container .button-group .button-hapus {
+    padding: 5px 20px;
+    font-size: 10px;
+    background: #dbdbdb;
+    color:#001a33;
+    border:none solid #aed6f1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.blog-list .blog-list-container h1 a {
+    text-decoration: none;
+    color: #001a33;
+}
+.blog-list .blog-list-container p {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #001a33;
+}
+.blog-list .blog-list-container .blog-content .post-uploader {
+    font-size: 10px;
+    font-weight: 300;
+    text-align: right;
+    color: #001a33;
+}
+.blog-detail {
+    display: flex;
+    justify-content: center;
+}
+.blog-detail .blog-detail-container {
+    width: 80%;
+    margin: 40px 0;
+    text-align: center;
+}
+.blog-detail .blog-detail-container img {
+    width: 30%;
+    height: 40%;
+    border-radius: 10px;
+}
+.blog-detail .blog-detail-container h1 {
+    font-size: 44px;
+    font-style: normal;
+    text-align: left;
+    margin-bottom: 15px;
+    color: #001a33;
+}
+.blog-detail .blog-detail-container .penulis {
+    font-size: 15px;
+    font-style: normal;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #001a33;
+}
+.blog-detail .blog-detail-container p {
+    text-align: justify;
+    color: #001a33;
+}

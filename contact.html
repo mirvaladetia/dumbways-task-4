@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Contact Me</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-left">
+        <ul>
+          <li>
+            <img src="image/gensin.png" style="border-radius: 15px;" alt="" />
+          </li>
+          <li>
+            <a class="active" href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="blog.html">List</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a href="contact.html">Contact Me</a>
+      </div>
+    </nav>
+    <h2>GET IN TOUCH</h2>
+    <form>
+      <div>
+        <label for="input-name">Nama</label>
+        <input id="input-name" height="100" type="text" required />
+      </div>
+
+      <div>
+        <label for="input-email">Email</label>
+        <input id="input-email" type="email" required />
+      </div>
+
+      <div>
+        <label for="input-phone">Nomor Telepon</label>
+        <input id="input-phone" type="tel" required />
+      </div>
+
+      <div>
+        <label for="input-subject">Subject</label>
+        <select id="input-subject">
+          <option value="" hidden>Select</option>
+          <option>Frontend</option>
+          <option>Backend</option>
+          <option>Fullstack</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="input-message">Isi Pesan</label>
+        <textarea id="input-message" rows="5" cols="10"></textarea>
+      </div>
+
+      <div class="submit-button-container">
+        <button type="button" onclick="ngumpulindata()">Submit</button>
+      </div>
+    </form>
+    <script src="indeks.js"></script>
+  </body>
+</html>

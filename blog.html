@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="blog.css"/>
+        <title>Upload</title>
+    </head>
+<body>
+    <nav>
+        <div class="nav-left">
+          <ul>
+            <li>
+              <img src="image/gensin.png" alt="" />
+            </li>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="active" href="blog.html">List</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <a href="contact.html">Contact Me</a>
+        </div>
+      </nav>
+      <div class="blog">
+        <div class="blog-form">
+            <div class="form-container">
+                <form onsubmit="addBlog(event)">
+                    <h1>Posting Waifu</h1>
+                    <div>
+                    <label for="input-judul-cerita">Judul</label>
+                    <input type="text" id="input-judul-cerita" required/>
+                    </div>
+                        <div class="vision-container"> 
+                            <div>
+                                <label for="input-region">Region</label>
+                                <input type="text" id="input-region" required/>
+                            </div>
+                            <div>
+                                <label for="input-vision">Vision</label>
+                                <input type="text" id="input-vision" required/>  
+                            </div>
+                        </div>
+                    <div>
+                    <label for="input-konten">Konten</label>
+                    <textarea id="input-konten"></textarea>    
+                    </div>
+                    <div>
+                        <label>Personality</label>
+                    </div>
+                    
+                    <div class="personality-container">
+                        <div class="checkbox-personality">
+                            <input name="personality" value="Mommy" type="checkbox" id="input-mommy"/>
+                            <label for="input-mommy">Mommy</label>
+                        </div>
+                        <div class="checkbox-personality">
+                            <label for="input-ceria">Ceria</label>
+                            <input name="personality" type="checkbox" id="input-ceria" value="Ceria"/>    
+                        </div>
+                    </div>
+                    <div>
+                        <div class="personality-container">
+                            <div class="checkbox-personality">
+                                <input name="personality" type="checkbox" id="input-kalem" value="Kalem" />    
+                                <label for="input-kalem">Kalem</label>
+                            </div>
+                            <div class="checkbox-personality">
+                                <label for="input-pemalu">Pemalu</label>
+                                <input name="personality" type="checkbox" id="input-pemalu" value="Pemalu"/>    
+                            </div>
+                        </div>
+                    </div>
+                    
+                        
+                    
+                    <div>
+                        <label>Unggah Foto</label>
+                        <div class="unggah-foto">
+                        <label for="unggah-foto-blog">
+                        Image file
+                        <img style="width: 24px; height: 24px;" src="image/upload.png" alt=""/>
+                        </label>
+                        <input type="file" id="unggah-foto-blog" hidden/>
+                        </div>
+                    </div>
+                        <div class="button-submit">
+                        <button>Post Blog</button>
+                        </div>
+                    </div>
+                </div>
+                    
+                </form>
+        </div>
+        <hr class="blog-line" />
+        <div id="contents" class="blog-list">
+            <div class="blog-list-container">
+                <div class="blog-list-image">
+                    <img src="image/ayaka.jpeg" alt="blog-gambar"/>
+                </div>
+                <div class="blog-content">
+                    <div class="button-group">
+                        <button class="button-unggah">Unggah Post</button>
+                        <button class="button-hapus">Hapus Post</button>
+                    </div>
+                    <h1>
+                        <a href="blog_list.html" target="blank">
+                        Putri Es dari Inazuma, Kamisato Ayaka </a></h1>
+                    <div class="post-uploader">
+                        20 Mei 2023 01.00 WIB | Mirval Adetia
+                    </div>
+                    <p>
+                        Waifu cryo dari Inazuma ini merupakan salah satu karkater yang disukai oleh banyak player Genshin.
+                        Selain menjadi DPS yang kuat, dia juga memiliki kepribadian yang menarik.
+                    </p>
+                </div>
+            </div>
+        </div>
+      
+    <script src="blog.js"></script>
+</body>
+    </html>
